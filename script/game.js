@@ -207,7 +207,7 @@ function setTimer() {
     clearTimeout(timerVar);
     count += 1;
     var item = document.getElementById("time");
-    item.value = "0" + m + ":" + s + count + " นาที";
+    item.value = "0" + m + ":" + s + count;
     if (count >= 9) {
         count = 0;
         s += 1;
