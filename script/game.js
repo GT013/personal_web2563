@@ -92,7 +92,7 @@ btnrnd.id = "btn10";
 main.appendChild(btnrnd);
 
 var txttime = document.createElement(`input`);
-txttime.value="00:00 นาที";
+txttime.value="00:00";
 txttime.id = "time"
 main.appendChild(txttime);
 
