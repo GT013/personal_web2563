@@ -1,0 +1,155 @@
+/*http://fanatical-whip.surge.sh/*/
+#game{
+    font-size: 3em;
+    margin-top: 30px;
+}
+.btn{
+    height: 100px;
+    border:1px black solid;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-areas: 
+    "btn1 btn2 btn3"
+    "btn4 btn5 btn6"
+    "btn7 btn8 btn9"
+    "rnd reset time";
+    
+    margin: 39%;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    position: static;
+}
+#main1{
+    text-align: center;
+    background-color:rgba(247, 217, 174, 0.938);
+    width: 100%;
+}
+.btn{
+    font-size: 1em;
+}
+#btn1,#btn3,#btn5,#btn7,#btn9{
+    background-color:lemonchiffon
+}
+#btn1:hover,#btn3:hover,#btn5:hover,#btn7:hover,#btn9:hover{
+    background-color:rgb(255, 252, 230);
+}
+#btn2,#btn4,#btn6,#btn8{
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+#btn2:hover,#btn4:hover,#btn6:hover,#btn8:hover{
+    color: white;
+    background-color: rgb(155, 155, 155);
+}
+#btn1{
+    grid-area: btn1;
+}
+#btn2{
+    grid-area: btn2;
+}
+#btn3{
+    grid-area: btn3;
+}
+#btn4{
+    grid-area: btn4;
+}
+#btn5{
+    grid-area: btn5;
+}
+#btn6{
+    grid-area: btn6;
+}
+#btn7{
+    grid-area: btn7;
+}
+#btn8{
+    grid-area: btn8;
+}
+#btn9{
+    grid-area: btn9;
+}
+#btn10{
+    grid-area: rnd;
+    background-color:rgb(14, 146, 14);
+    color: honeydew;
+    margin-top: 20px;
+    max-height: 50%;
+}
+#btn10:hover{
+    background-color: greenyellow;
+}
+#time{
+    margin-top: 20px;
+    max-height: 45%;
+    font-size: 1em;
+    grid-area: time;
+    text-align: center;
+}
+#btn11{
+    margin-top: 20px;
+    max-height: 50%;
+    grid-area: reset;
+    background-color: rgb(201, 150, 20);
+    color: honeydew;
+}
+#btn11:hover{
+    background-color:gold;
+}
+/******************Responsive design***********************/
+@media screen and (max-width:1024px){ 
+    #main{
+        max-width: 40%;
+        margin-bottom: 60px;
+        margin-left: 35%;
+    }
+    
+}
+@media screen and (max-width:768px){ 
+    #main{
+        max-width: 30%;
+        margin-bottom: 60px;
+        margin-left: 30%;
+    }  
+}
+@media screen and (max-width:610px){
+    #main{
+        margin:20px 30px 60px 100px;
+    }  
+}
+@media screen and (max-width:414px){ 
+    #main{
+        margin:20px 30px 60px 60px;
+    }
+    
+}
+@media screen and (max-width:375px){ 
+    #main{
+        margin-bottom: 60px;
+        margin:0px;
+        padding-left: 20px;
+    }
+    
+}
+@media screen and (max-width:360px){ 
+    #main{
+        margin-bottom: 60px;
+        margin:0px;
+        padding-left: 10px;
+    }
+    
+}
+@media screen and (max-width:320px){ 
+    #main{
+        grid-template-columns: repeat(3,80px);
+        margin-bottom: 60px;
+        padding-left: 20px;
+    }
+    #txt{
+        font-size: 0.85em;
+    }
+    #game{
+        font-size: 2em;
+    }
+}
