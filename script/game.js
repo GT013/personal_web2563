@@ -163,8 +163,9 @@ function btn9click() {
 }
 
 function winner() {
-    if (btn1.innerHTML == 1 && btn2.innerHTML == 2 && btn3.innerHTML == 3 && btn4.innerHTML == 4 && btn5.innerHTML == 5 && btn6.innerHTML == 6 && btn7.innerHTML == 7 && btn8.innerHTML == 8 && btn9.innerHTML == '') {
+    if (btn1.innerHTML == 1 && btn2.innerHTML == 2 && btn3.innerHTML == 3 && btn4.innerHTML == 4 && btn5.innerHTML == 5 && btn6.innerHTML == 6 && btn7.innerHTML == 7 && btn8.innerHTML == 8) {
         alert("ยินดีด้วยคุณชนะแล้วใช้เวลาไป " + txttime.value + " นาที");
+        location.reload();
     }
 }
 /**************Random Number***************/
