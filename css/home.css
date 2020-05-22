@@ -1,4 +1,4 @@
-/*https://blakaciut.blogspot.com/  back ground*/
+/*https://blakaciut.blogspot.com/  background*/
 #content{
     display: grid;
     grid-template-areas: 
@@ -132,10 +132,5 @@ img:hover{
         "pic4"
         "pic5"
         "pic6";
-    }
-}
-@media screen and (max-width:610px){
-    img{
-        width: 30%;
     }
 }
