@@ -98,6 +98,9 @@ img:hover{
     .modal-content {
       width: 100%;
     }
+    #img01{
+        width:50%;
+    }
 }
 @media screen and (max-width:768px){
     p{
